@@ -14,6 +14,7 @@ public enum CommentLevel {
     public final Integer type;
     public final String value;
 
+
     CommentLevel(Integer type, String value) {
         this.type = type;
         this.value = value;
