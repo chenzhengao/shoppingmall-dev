@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  datasource:                                           # 数据源的相关配置        Asia/Shanghai与UTC 相差8个小时
+    url: jdbc:mysql://localhost:3306/shopping?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    password: 123456
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
